@@ -1,6 +1,6 @@
 a = input("Enter the name:")
 
-if a == "thonda":
+if a == "Bakki":
     print("Keerthana")
  
  
