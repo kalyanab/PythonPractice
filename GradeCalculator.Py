@@ -16,4 +16,4 @@ elif percentage > 70 and percentage <= 80:
 else:
     grade = 'p'
 
-print(f"Total Marks:{Total} /n average Marks:{Average} /n Percentage:{percentage}% Grade:{grade}")
+print(f"Total Marks:{Total} \n average Marks:{Average} \n Percentage:{percentage}% \n Grade:{grade}")
