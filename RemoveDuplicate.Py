@@ -8,8 +8,6 @@ newL = list(s)
 print(newL)
 
 
-
-
 # Method 2 :
 # inp = input().split(',')
 # l = [int(item) for item in inp]
