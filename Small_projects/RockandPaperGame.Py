@@ -14,12 +14,12 @@ print("You chose " + PlayerChoice)
 print("Python chose " + Computerchoice)
 
 if Player == 1 and Computer ==3:
-    print("You won...")
+    print("🥳🥳 You won...")
 elif Player == 2 and Computer ==1:
-    print("You won...")
+    print("🥳🥳 You won...")
 elif Player == 3 and Computer ==2:
-    print("You won...")
+    print("🥳🥳 You won...")
 elif Player == Computer:
-    print("Game is tie")
+    print("🪢 Game is tie")
 else:
-    print("Python Won")
+    print("😁 Python Won")
