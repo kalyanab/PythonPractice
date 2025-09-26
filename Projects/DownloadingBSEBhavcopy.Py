@@ -48,4 +48,4 @@ def download_bse_bhavcopy(start_date, end_date, save_folder="bhavcopies"):
         current += timedelta(days=1)
 
 # Example usage
-download_bse_bhavcopy("2024-01-01", "2024-12-31")
+download_bse_bhavcopy("2022-01-01", "2024-01-01")
