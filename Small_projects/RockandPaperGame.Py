@@ -20,5 +20,6 @@ elif Player == 2 and Computer ==1:
 elif Player == 3 and Computer ==2:
     print("You won...")
 elif Player == Computer:
+    print("Game is tie")
 else:
     print("Python Won")
