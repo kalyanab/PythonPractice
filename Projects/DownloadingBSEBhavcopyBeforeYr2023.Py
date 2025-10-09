@@ -25,7 +25,8 @@ def download_bse_bhavcopy(start_date, end_date, save_folder="bhavcopies"):
 
         # Date format for file
         date_str = current.strftime("%d%m%y")
-        url = f"https://www.bseindia.com/download/BhavCopy/Equity/EQ_ISINCODE_{date_str}.zip"
+        url = f"https://www.bseindia.com/download/BhavCopy/Equity_{date_str}.zip"
+
         zip_path = os.path.join(save_folder, f"BhavCopy_{date_str}.zip")
 
         try:
@@ -60,4 +61,4 @@ def download_bse_bhavcopy(start_date, end_date, save_folder="bhavcopies"):
         current += timedelta(days=1)
 
 # Example usage
-download_bse_bhavcopy("2022-01-01", "2022-12-31")
+download_bse_bhavcopy("2016-01-01", "2016-12-31")
