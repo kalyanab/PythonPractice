@@ -26,16 +26,9 @@ while playagin:
     else:
         print("😁 Python Won")
 
-playagin = input("Do you want to play again? (yes/no): ")
-# if playagin.lower() != "yes":
-#     print("thank you for playing...")
-#     playagin = False
-#     print("Thanks for playing...")
-# else:
-#     playagin = True
-if playagin.lower() == "yes":
-    playagin = True
-else:
-    playagin.lower() == "no"
-    playagin = False
-    print("Thanks for playing...")
+    playagin_input = input("Do you want to play again? \n yes \n no \n")
+    if playagin_input.lower() == "yes":
+        continue
+    else:
+        playagin = False
+        print("Thanks for playing...")
