@@ -7,11 +7,13 @@ def Play_rps():
         ROCK = 1
         PAPER = 2
         SCISSORS = 3
-
+    
+    playing = True
+    while playing:
         PlayerChoice = input("Enter.....\n1 Rock,\n2 paper,\n3 scissors:\n\n")
         if PlayerChoice not in ["1","2","3"]:
            print("Please enter the value 1 or 2 or 3")
-           return Play_rps()
+           continue
 
         Player = int(PlayerChoice)
 
@@ -30,11 +32,14 @@ def Play_rps():
         elif Player == Computer:
             print("🪢 Game is tie")
         else:
-            print("😁 Python Won")
+            print("😞 You lost...")
 
         playagin_input = input("Do you want to play again? \n yes \n no \n")
-        if playagin_input.lower() == "yes":
+        if playagin_input.strip().lower() == "yes":
             continue
         else:
-            playagin = False
+            playing = False
             print("Thanks for playing...")
+
+if __name__ == "__main__":
+    Play_rps()
