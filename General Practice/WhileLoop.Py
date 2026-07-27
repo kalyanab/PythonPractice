@@ -5,3 +5,4 @@ while candies > 1:
     candies -= 1
 
 print(candies)
+
