@@ -58,6 +58,7 @@ def check_password_strength():
     has_number = False
     has_symbol = False
 
+
     for char in password:
 
         if char.islower():
