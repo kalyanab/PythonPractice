@@ -57,6 +57,7 @@ def check_password_strength():
     has_uppercase = False
     has_number = False
     has_symbol = False
+    
 
 
     for char in password:
